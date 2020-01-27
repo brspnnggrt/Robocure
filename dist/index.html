@@ -1,0 +1,226 @@
+<html>
+
+<head>
+    <title>Storyline 2 Pepper - Module overview</title>
+    <style>
+        ul {
+            padding: 0;
+            width: 100%;
+        }
+
+        li {
+            display: inline;
+        }
+
+        button {
+            outline: none;
+            text-decoration: none;
+            display: inline-block;
+            width: 19.5%;
+            margin-right: 0.625%;
+            text-align: center;
+            line-height: 3;
+            color: black;
+            margin-bottom: 10px;
+            background: yellow;
+        }
+
+        li:last-child a {
+            margin-right: 0;
+        }
+
+        .input {
+            width: 500px;
+            margin-top: 5px;
+        }
+
+        .label {
+            margin-top: 5px;
+            width: 500px;
+        }
+    </style>
+    <script>
+
+        function getSelectValue(selectId) {
+            var el = document.getElementById(selectId);
+            return el.options[el.selectedIndex].value;
+        }
+
+        function convertKeyValuePairToQueryParameter(keyValue) {
+            return keyValue.key + "=" + keyValue.value;
+        }
+
+        function redirect(folder) {
+            // Retrieve actual query param values & urlencode
+            var pepperIp = encodeURIComponent(document.getElementById("pepperIp").value);
+            var speechToTextIp = encodeURIComponent(document.getElementById("speechToTextIp").value);
+
+            var lrs = encodeURIComponent(document.getElementById("lrs").value);
+            var auth = encodeURIComponent(document.getElementById("auth").value);
+            var activity = encodeURIComponent(document.getElementById("activity").value);
+
+            var actorName = document.getElementById("actorName").value;
+            var actorEmail = document.getElementById("actorEmail").value;
+            var actorParsed = encodeURIComponent({
+                "name": [actorName],
+                "mbox": ["mailto:" + actorEmail]
+            });
+
+            // format into key value pairs
+            var queryParamsLRS = [
+                { "key": "endpoint", "value": lrs },
+                { "key": "auth", "value": auth },
+                { "key": "actor", "value": actorParsed },
+                { "key": "tincan", "value": "true" },
+                { "key": "activity_id", "value": activity }
+            ];
+
+            var queryParamsPepper = [
+                { "key": "robocure_pepper_ip", "value": pepperIp },
+                { "key": "robocure_speech_ip", "value": speechToTextIp }
+            ];
+
+            // Build url
+            var baseUrl = "storyline/" + folder + "/story_html5.html?";
+            var queryParams = [{ "key": "target", "value": getSelectValue("targetSelect") }];
+
+            if (document.getElementById("enableLrs").checked === true)
+                queryParams = queryParams.concat(queryParamsLRS);
+
+            if (getSelectValue("targetSelect") === "pepper")
+                queryParams = queryParams.concat(queryParamsPepper);
+
+            window.location.href = baseUrl + queryParams.map(convertKeyValuePairToQueryParameter).join("&");
+        }
+
+        function toggleLrsConfiuration() {
+            var checkBox = document.getElementById("enableLrs");
+            if (checkBox.checked === false)
+                document.getElementById("lrsConfiguration").style.display = "none";
+            else
+                document.getElementById("lrsConfiguration").style.display = "block";
+        }
+
+        function toggleTargetConfiguration() {
+            if (getSelectValue("targetSelect") === "pepper")
+                document.getElementById("targetConfigurationPepper").style.display = "block";
+            else
+                document.getElementById("targetConfigurationPepper").style.display = "none";
+
+            // -->add extra robot config fields
+            // if (getSelectValue("targetSelect") === "newrobot")
+            //   document.getElementById("targetConfigurationNewRobot").style.display = "block";
+            // else 
+            //   document.getElementById("targetConfigurationNewRobot").style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <span class="label">Targeted robot</span>
+    <select id="targetSelect" onchange="toggleTargetConfiguration()">
+        <option value="browser">browser simulation</option>
+        <option value="pepper">pepper</option>
+    </select>
+    <br>
+    <!-- pepper -->
+    <div id="targetConfigurationPepper" style="display: none;">
+        <span class="label">Pepper IP</span>
+        <input id="pepperIp" class="input" value="192.168.1.101"><br>
+
+        <span class="label">Pepper speech to text server IP</span>
+        <input id="speechToTextIp" class="input" value="192.168.1.100"><br>
+    </div>
+
+    <!-- lrs -->
+    <input id="enableLrs" type="checkbox" value="enableLrs" onclick="toggleLrsConfiuration()">LRS enabled<br>
+
+    <div id="lrsConfiguration" style="display: none;">
+
+        <span class="label">LRS endpoint</span>
+        <input id="lrs" class="input" value="http://lrs.lrs.wall2-ilabt-iminds-be.wall1.ilabt.iminds.be/data/xAPI"><br>
+
+        <span class="label">LRS Auth</span>
+        <input id="auth" class="input" value="Basic MmNjZTkyZjFhNTRmZDQzOGE0YjZmNjZiNjc3NWI3NGU1MDY1ZDFhMjpkZThkMmRjZTRjMGU1OTg4YzQ4MzU3ZDhmZjJkNTk2MjQyNjc5YWJh"><br>
+
+        <span class="label">LRS Actor Name</span>
+        <input id="actorName" class="input" value="Test User"><br>
+
+        <span class="label">LRS Actor Email</span>
+        <input id="actorEmail" class="input" value="test.user@robocure.be"><br>
+
+        <span class="label">LRS Activity (url)</span>
+        <input id="activity" class="input" value="https://robocure.be/xapi/activities/learningmodule"><br>
+
+    </div>
+
+    <!-- Site navigation menu -->
+    <ul class="navbar">
+        <!--
+                example:
+                <li>
+                    <a href="storyline/insuline_game/story_html5.html">
+                        <h1>Insuline Game</h1>
+                    </a>
+                </li>
+                ...
+            -->
+    
+                    <li>
+                        <button onclick="redirect(&apos;Carbohydrates ENG&apos;);">
+                            Carbohydrates ENG
+                        </button>
+                    </li>
+                
+                    <li>
+                        <button onclick="redirect(&apos;Enlite Sensor ENG&apos;);">
+                            Enlite Sensor ENG
+                        </button>
+                    </li>
+                
+                    <li>
+                        <button onclick="redirect(&apos;Enlite Sensor FR&apos;);">
+                            Enlite Sensor FR
+                        </button>
+                    </li>
+                
+                    <li>
+                        <button onclick="redirect(&apos;Enlite Sensor NL&apos;);">
+                            Enlite Sensor NL
+                        </button>
+                    </li>
+                
+                    <li>
+                        <button onclick="redirect(&apos;Glucides FR&apos;);">
+                            Glucides FR
+                        </button>
+                    </li>
+                
+                    <li>
+                        <button onclick="redirect(&apos;Hypo ENG&apos;);">
+                            Hypo ENG
+                        </button>
+                    </li>
+                
+                    <li>
+                        <button onclick="redirect(&apos;Hypo FR&apos;);">
+                            Hypo FR
+                        </button>
+                    </li>
+                
+                    <li>
+                        <button onclick="redirect(&apos;Hypo NL&apos;);">
+                            Hypo NL
+                        </button>
+                    </li>
+                
+                    <li>
+                        <button onclick="redirect(&apos;Koolhydraten NL&apos;);">
+                            Koolhydraten NL
+                        </button>
+                    </li>
+                </ul>
+    <!-- Main content -->
+</body>
+
+</html>

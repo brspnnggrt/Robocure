@@ -1,0 +1,1 @@
+CALL ssh-copy-id.cmd nao@%npm_package_config_ip% %npm_package_config_password% ./keys/robocure.ssh-rsa.pub

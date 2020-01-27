@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "module": "umd",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": false,
+      "inlineSourceMap": true,
+      "inlineSources": true,
+      "outDir": "../dist/robot/",
+      "lib": ["es2015", "dom"]
+  },
+  "filesGlob": [
+      "./src/robot/**/*.ts",
+      "!./node_modules/**/*.ts"
+  ]
+}

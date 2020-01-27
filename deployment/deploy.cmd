@@ -1,0 +1,1 @@
+qipkg deploy-package robocure_interactive_learning-1.0.0.pkg --verbose --url nao@%npm_package_config_ip%

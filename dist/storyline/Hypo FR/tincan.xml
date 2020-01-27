@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5WKi2kczWzW_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Hypo FR</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5Zi0mfAV0jy" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Hypo FR</name>
+			<description lang="und">Hypo FR</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6llEazZf4lh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Start</name>
+			<description lang="und">Start</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6qNZ1hoJBon" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Intro</name>
+			<description lang="und">Intro</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6MyJan65wAH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_Quoi_partie1</name>
+			<description lang="und">Info_Quoi_partie1</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6RRXU3teXZ3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_Quoi_partie2</name>
+			<description lang="und">Info_Quoi_partie2</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5YWHT9xpGZc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_Quoi_partie3</name>
+			<description lang="und">Info_Quoi_partie3</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5lsOZXsQq6q" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_Hypo</name>
+			<description lang="und">Info_Hypo</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6P76DsPpqNq" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_Causes</name>
+			<description lang="und">Info_Causes</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5eNbhhy6FdL" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_Symptomen</name>
+			<description lang="und">Info_Symptomen</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6PH2DzodFee" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_TraitementSensor</name>
+			<description lang="und">Info_TraitementSensor</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/67wbBpIrREG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_TraitementBloodglucose</name>
+			<description lang="und">Info_TraitementBloodglucose</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5rwz4I81cNY" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_Treatment_AfterTenMinutes</name>
+			<description lang="und">Info_Treatment_AfterTenMinutes</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6iDNiSlGJ3s" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Start</name>
+			<description lang="und">Quiz_Start</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5Zs0rYvCKzh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Q1</name>
+			<description lang="und">Quiz_Q1</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5Zs0rYvCKzh/5qUnlSJ5a49" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6EbItf4tJxy</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_65tekLMCffm</id>
+					<description lang="und">OUI</description>
+				</component>
+				<component>
+					<id>choice_6EbItf4tJxy</id>
+					<description lang="und">NON</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5wMJEcys2L6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Q5</name>
+			<description lang="und">Quiz_Q5</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5wMJEcys2L6/6ojLGyb8pAv" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_5WoIXEbGLMY[.]choice_63qCL0nzVhT</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_5WoIXEbGLMY</id>
+					<description lang="und">Dropzone - Rectangular Hotspot</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5g5BQgkIVKk</id>
+					<description lang="und">Picture 9 - illustratie_insuliinepen.png</description>
+				</component>
+				<component>
+					<id>choice_6RkjSNCrd6R</id>
+					<description lang="und">Picture 11 - carrot illustration 1</description>
+				</component>
+				<component>
+					<id>choice_63qCL0nzVhT</id>
+					<description lang="und">Picture 12 - juice illustration 1</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/664j9BRHOYb" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Q2</name>
+			<description lang="und">Quiz_Q2</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/664j9BRHOYb/6XzVWZ8z4y6" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5yMJwsVCsXc</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5yMJwsVCsXc</id>
+					<description lang="und">OUI</description>
+				</component>
+				<component>
+					<id>choice_6BJDh9zmtn0</id>
+					<description lang="und">NON</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5wfZ375EBAL" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Q4</name>
+			<description lang="und">Quiz_Q4</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5wfZ375EBAL/6E62Yjyn6PM" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5boxoHYpyVm</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5boxoHYpyVm</id>
+					<description lang="und">VRAI</description>
+				</component>
+				<component>
+					<id>choice_5t5pcd5KLlB</id>
+					<description lang="und">FAUX</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6CGltGlZ6vt" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Q3</name>
+			<description lang="und">Quiz_Q3</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6CGltGlZ6vt/6oOopzLilKw" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_66QhH3RIcjB</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_66QhH3RIcjB</id>
+					<description lang="und">OUI</description>
+				</component>
+				<component>
+					<id>choice_5wXAWbIIK6W</id>
+					<description lang="und">NON</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5gVh3pZ0Dhn" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Q6</name>
+			<description lang="und">Quiz_Q6</description>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/5gVh3pZ0Dhn/62Di5gJmKju" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick Many</name>
+			<description lang="und">Pick Many</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_61k0XJqGajq</correctResponsePattern>
+				<correctResponsePattern>choice_6Ea1fbIPlf7</correctResponsePattern>
+				<correctResponsePattern>choice_5ZQHRlTMCNB</correctResponsePattern>
+				<correctResponsePattern>choice_6G5bOiVFWvc</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_61k0XJqGajq</id>
+					<description lang="und">FATIGUE</description>
+				</component>
+				<component>
+					<id>choice_6Ea1fbIPlf7</id>
+					<description lang="und">PÂLEUR</description>
+				</component>
+				<component>
+					<id>choice_5ZQHRlTMCNB</id>
+					<description lang="und">ETOUR-DISSEMENT</description>
+				</component>
+				<component>
+					<id>choice_6G5bOiVFWvc</id>
+					<description lang="und">SUEUR</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://5WKi2kczWzW_course_id/6ZWApqWHwWU" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+	</activities>
+</tincan>

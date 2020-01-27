@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://654j3P3LDI8_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Koolhydraten ENG</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5Zi0mfAV0jy" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Koolhydraten ENG</name>
+			<description lang="und">Koolhydraten ENG</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6llEazZf4lh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Start module</name>
+			<description lang="und">Start module</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6qNZ1hoJBon" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Start module</name>
+			<description lang="und">Start module</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/63pyKvxet79" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Video</name>
+			<description lang="und">Video</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6MyJan65wAH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_What</name>
+			<description lang="und">Info_What</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6FufSQx5Yyq" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_What</name>
+			<description lang="und">Info_What</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6Nyjyk6xvBn" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_Wat</name>
+			<description lang="und">Info_Wat</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5fi35tix9e6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_What</name>
+			<description lang="und">Info_What</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5aWlpvIQXX0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Info_What</name>
+			<description lang="und">Info_What</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6iDNiSlGJ3s" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Start</name>
+			<description lang="und">Quiz_Start</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/69uNLjPR4p1" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/69uNLjPR4p1/694TpGJKhpG" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6BztC4Gohic[.]choice_6gsYwaclmLS</correctResponsePattern>
+				<correctResponsePattern>statement_6UAjKJonkgC[.]choice_6WZNPIUdCGT</correctResponsePattern>
+				<correctResponsePattern>statement_5hhpZ40qUdI[.]choice_6PAYP7akmMZ</correctResponsePattern>
+				<correctResponsePattern>statement_6EZOgImtBy1[.]choice_6RIc0Nsluts</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6BztC4Gohic</id>
+					<description lang="und">2 - Rectangle</description>
+				</component>
+				<component>
+					<id>statement_6UAjKJonkgC</id>
+					<description lang="und">1 - Rectangle</description>
+				</component>
+				<component>
+					<id>statement_5hhpZ40qUdI</id>
+					<description lang="und">4 - Rectangle</description>
+				</component>
+				<component>
+					<id>statement_6EZOgImtBy1</id>
+					<description lang="und">3 - Rectangle</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6gsYwaclmLS</id>
+					<description lang="und">Rectangle 2 - S U</description>
+				</component>
+				<component>
+					<id>choice_6WZNPIUdCGT</id>
+					<description lang="und">Rectangle 4 - I N</description>
+				</component>
+				<component>
+					<id>choice_6PAYP7akmMZ</id>
+					<description lang="und">Rectangle 5 - N</description>
+				</component>
+				<component>
+					<id>choice_6RIc0Nsluts</id>
+					<description lang="und">Rectangle 6 - L I</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6fwcXDYAsZF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6fwcXDYAsZF/6EzwrENT7em" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6HhBNHFMHNB</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5VnkrmAOwbT</id>
+					<description lang="und">Picture 1</description>
+				</component>
+				<component>
+					<id>choice_6HhBNHFMHNB</id>
+					<description lang="und">Picture 2</description>
+				</component>
+				<component>
+					<id>choice_5VyLtni6eQT</id>
+					<description lang="und">Picture 3</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5wfZ375EBAL" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Q4</name>
+			<description lang="und">Quiz_Q4</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5wfZ375EBAL/6E62Yjyn6PM" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5t5pcd5KLlB</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5boxoHYpyVm</id>
+					<description lang="und">RIGHT</description>
+				</component>
+				<component>
+					<id>choice_5t5pcd5KLlB</id>
+					<description lang="und">WRONG</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6ITuYEPr3HA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6ITuYEPr3HA/6rVp7s3bY2a" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6drqUF2V48w[.]choice_6kQGDVAK0wV</correctResponsePattern>
+				<correctResponsePattern>statement_6k67SMp3fjQ[.]choice_5WoDpzM1BLX</correctResponsePattern>
+				<correctResponsePattern>statement_61F6sCjD1aw[.]choice_6jN9wmrOYkm</correctResponsePattern>
+				<correctResponsePattern>statement_66NAcbpnsO1[.]choice_6DCByBfnipX</correctResponsePattern>
+				<correctResponsePattern>statement_5yD0nic5jS7[.]choice_6D7C3ZobFYD</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6drqUF2V48w</id>
+					<description lang="und">2 - Rectangle</description>
+				</component>
+				<component>
+					<id>statement_6k67SMp3fjQ</id>
+					<description lang="und">1 - Rectangle</description>
+				</component>
+				<component>
+					<id>statement_61F6sCjD1aw</id>
+					<description lang="und">4 - Rectangle</description>
+				</component>
+				<component>
+					<id>statement_66NAcbpnsO1</id>
+					<description lang="und">3 - Rectangle</description>
+				</component>
+				<component>
+					<id>statement_5yD0nic5jS7</id>
+					<description lang="und">5 - Rectangle</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6kQGDVAK0wV</id>
+					<description lang="und">Rectangle 2 - BO</description>
+				</component>
+				<component>
+					<id>choice_5WoDpzM1BLX</id>
+					<description lang="und">Rectangle 4 - CAR</description>
+				</component>
+				<component>
+					<id>choice_6jN9wmrOYkm</id>
+					<description lang="und">Rectangle 5 - DRA</description>
+				</component>
+				<component>
+					<id>choice_6DCByBfnipX</id>
+					<description lang="und">Rectangle 6 - HY</description>
+				</component>
+				<component>
+					<id>choice_6D7C3ZobFYD</id>
+					<description lang="und">Rectangle 11 - TES</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5qjLcHpGIei" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Q4</name>
+			<description lang="und">Quiz_Q4</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5qjLcHpGIei/6SGU4d0f87j" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5ZDLEPKLoOE</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5ZDLEPKLoOE</id>
+					<description lang="und">RIGHT</description>
+				</component>
+				<component>
+					<id>choice_6Z675Ci859Z</id>
+					<description lang="und">WRONG</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/61CeDlSoQxN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/61CeDlSoQxN/5c44zA8vizM" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5ufi7iuFI6O</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_61XXow1WkzZ</id>
+					<description lang="und">Picture 1</description>
+				</component>
+				<component>
+					<id>choice_5ufi7iuFI6O</id>
+					<description lang="und">Picture 2</description>
+				</component>
+				<component>
+					<id>choice_5YHV6uzGKiu</id>
+					<description lang="und">Picture 3</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5gK3hog709f" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5gK3hog709f/5uwQ4Za1m38" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6USttjniMw5[.]choice_6ZxhJBeeEzh</correctResponsePattern>
+				<correctResponsePattern>statement_6gNKrkW9Xwc[.]choice_6aBMXElGATH</correctResponsePattern>
+				<correctResponsePattern>statement_6CCSoMISmcz[.]choice_5kaL5HvtauK</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6USttjniMw5</id>
+					<description lang="und">Rectangle 3</description>
+				</component>
+				<component>
+					<id>statement_6gNKrkW9Xwc</id>
+					<description lang="und">Rectangle 8</description>
+				</component>
+				<component>
+					<id>statement_6CCSoMISmcz</id>
+					<description lang="und">Rectangle 9</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6ZxhJBeeEzh</id>
+					<description lang="und">Rectangle 2 - HANS EATS AN APPLE. THE APPLE CONTAINS CARBOHYDRATES.</description>
+				</component>
+				<component>
+					<id>choice_6aBMXElGATH</id>
+					<description lang="und">Rectangle 5 - THE CARBOHYDRATES GET INTOHANS’ BLOOD.</description>
+				</component>
+				<component>
+					<id>choice_5kaL5HvtauK</id>
+					<description lang="und">Rectangle 6 - INSULIN OPENS THE DOORS THAT LET The CARBOHYDRATES GO FROMTHE BLOOD TO THE MUSCLES.</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5wMJEcys2L6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz_Q5</name>
+			<description lang="und">Quiz_Q5</description>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/5wMJEcys2L6/6ojLGyb8pAv" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_5WoIXEbGLMY[.]choice_6jdPmHOshAU</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_5WoIXEbGLMY</id>
+					<description lang="und">Dropzone - Rectangular Hotspot</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6jdPmHOshAU</id>
+					<description lang="und">Picture 15 - snack cheese illustration 1</description>
+				</component>
+				<component>
+					<id>choice_6VuIdtQPpQQ</id>
+					<description lang="und">Picture 14 - cookie illustration 1</description>
+				</component>
+				<component>
+					<id>choice_6Q7Uiympvr5</id>
+					<description lang="und">Picture 16 - candy illustration 1</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://654j3P3LDI8_course_id/6ZWApqWHwWU" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+	</activities>
+</tincan>

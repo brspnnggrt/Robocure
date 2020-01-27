@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="1.0.0" uuid="robocure_interactive_learning">
+ <names>
+  <name lang="en_US">Interactive Learning</name>
+  <name lang="fr_FR">Apprentissage Interactif</name>
+  <name lang="nl_NL">Interactief Leren</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Interactive Learning</description>
+  <description lang="fr_FR">Apprentissage Interactif</description>
+  <description lang="nl_NL">Interactief Leren</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>nl_NL</language>
+  <language>en_US</language>
+  <language>fr_FR</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>nl_NL</language>
+  <language>en_US</language>
+  <language>fr_FR</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="saxophone">
+    <nature>interactive</nature>
+    <permissions/>
+  </behaviorContent>
+  <behaviorContent path="elephant">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="taichichuan">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.5"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>
